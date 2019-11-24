@@ -1,0 +1,12 @@
+I2C MAX7311/7312-based IO Expander with 4x IOB daughterboard connections
+
+Versions:
+
+
+  * 1.0 - laid out for 7313 QSOP, found that the more desirable '11 and '12 chips are not available in QSOP.  '13 is not available in SSOP.
+  * 2.0 - multiple silkscreen errors (still labeled as '13 even tho '11 package was used)
+  * 2.1 - Same as v2.0, but board has carrier for "design for fabrication" optimization.  Fixed silkscreen name, change from '13 to '11
+
+Populating with '11 part means no external pullups are needed, '12 part requires external pull ups. 
+The board supports both variations; simply don't populate the resistors when using the 7311.
+
