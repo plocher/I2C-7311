@@ -3,6 +3,7 @@ project: I2C-7311
 designer: John Plocher
 fabricated: yes
 fab_date: 2018-08
+image_path: I2C-7311-Graphic.png
 status: released
 release: yes
 tags: [eagle, SPCoast]
