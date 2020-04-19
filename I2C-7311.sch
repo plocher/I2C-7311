@@ -7646,6 +7646,132 @@ Layout for IOB I2C cards</text>
 <text x="-2.238" y="-4.874" size="1.016" layer="51" rot="SR90">GND</text>
 <wire x1="2.413" y1="0" x2="-1.778" y2="0" width="0.254" layer="21"/>
 </package>
+<package name="BOARD-DINRAIL-3.17INX6CM">
+<wire x1="2.5" y1="10.16" x2="8" y2="10.16" width="0" layer="20"/>
+<wire x1="-2" y1="10.16" x2="63" y2="10.16" width="0.3048" layer="46"/>
+<wire x1="53" y1="10.16" x2="57.179971875" y2="10.16" width="0" layer="20"/>
+<wire x1="57.179971875" y1="10.16" x2="59.822" y2="12.66" width="0" layer="20" curve="90"/>
+<wire x1="59.822" y1="12.66" x2="59.822" y2="88.138" width="0" layer="20"/>
+<wire x1="59.822" y1="88.138" x2="57.179971875" y2="90.678" width="0" layer="20" curve="90"/>
+<wire x1="57.179971875" y1="90.678" x2="52" y2="90.678" width="0" layer="20"/>
+<wire x1="62" y1="90.678" x2="-3" y2="90.678" width="0.3048" layer="46"/>
+<wire x1="7" y1="90.678" x2="2.5" y2="90.678" width="0" layer="20"/>
+<wire x1="2.5" y1="90.678" x2="0" y2="87.63" width="0" layer="20" curve="90"/>
+<wire x1="0" y1="87.63" x2="0" y2="12.66" width="0" layer="20"/>
+<wire x1="0" y1="12.66" x2="2.5" y2="10.16" width="0" layer="20" curve="90"/>
+<hole x="54.742" y="15.24" drill="4"/>
+<hole x="5.08" y="85.344" drill="4"/>
+<hole x="54.742" y="85.344" drill="4"/>
+<hole x="5.08" y="15.24" drill="4"/>
+<dimension x1="61.6" y1="90.678" x2="61.6" y2="10.16" x3="64.14" y3="50.419" textsize="0.8128" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="60" y1="90.17" x2="0" y2="90.17" x3="30" y3="102.71" textsize="0.8128" layer="47" dtype="horizontal" width="0.127"/>
+<text x="62.07" y="102.71" size="1.016" layer="47">mm</text>
+<text x="64.14" y="52.07" size="1.016" layer="47" rot="R90">"</text>
+<wire x1="60.02" y1="90.805" x2="49.59" y2="90.805" width="0.127" layer="48"/>
+<wire x1="49.59" y1="90.805" x2="49.59" y2="50.165" width="0.127" layer="48"/>
+<wire x1="49.59" y1="50.165" x2="60.02" y2="50.165" width="0.127" layer="48"/>
+<wire x1="60.02" y1="50.165" x2="60.02" y2="90.805" width="0.127" layer="48"/>
+<text x="61.64" y="50.975" size="1.27" layer="48" rot="R90">name</text>
+<text x="20.64" y="2.54" size="1.27" layer="48" font="vector">3.17" Tyco Rail 7cm Template</text>
+<circle x="5.08" y="85.344" radius="2.83980625" width="0.127" layer="41"/>
+<circle x="5.08" y="85.344" radius="2.83980625" width="0.127" layer="42"/>
+<circle x="54.742" y="15.24" radius="2.83980625" width="0.127" layer="42"/>
+<circle x="54.742" y="15.24" radius="2.83980625" width="0.127" layer="41"/>
+<circle x="54.742" y="85.344" radius="2.83980625" width="0.127" layer="42"/>
+<circle x="54.742" y="85.344" radius="2.83980625" width="0.127" layer="41"/>
+<circle x="5.08" y="15.24" radius="2.83980625" width="0.127" layer="42"/>
+<circle x="5.08" y="15.24" radius="2.83980625" width="0.127" layer="41"/>
+<rectangle x1="-10" y1="81.28" x2="60" y2="90.678" layer="40"/>
+<rectangle x1="-10" y1="86.36" x2="60" y2="90.678" layer="39"/>
+<rectangle x1="-10" y1="10.16" x2="60" y2="19.558" layer="40"/>
+<rectangle x1="-10" y1="10.16" x2="60" y2="14.478" layer="39"/>
+<polygon width="0.127" layer="29">
+<vertex x="0.905" y="12.065" curve="90"/>
+<vertex x="1.905" y="11.065" curve="90"/>
+<vertex x="2.905" y="12.065" curve="90"/>
+<vertex x="1.905" y="13.065" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="0.905" y="12.065" curve="90"/>
+<vertex x="1.905" y="11.065" curve="90"/>
+<vertex x="2.905" y="12.065" curve="90"/>
+<vertex x="1.905" y="13.065" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="56.79" y="12.065" curve="90"/>
+<vertex x="57.79" y="11.065" curve="90"/>
+<vertex x="58.79" y="12.065" curve="90"/>
+<vertex x="57.79" y="13.065" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="56.79" y="12.065" curve="90"/>
+<vertex x="57.79" y="11.065" curve="90"/>
+<vertex x="58.79" y="12.065" curve="90"/>
+<vertex x="57.79" y="13.065" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="0.905" y="88.9" curve="90"/>
+<vertex x="1.905" y="87.9" curve="90"/>
+<vertex x="2.905" y="88.9" curve="90"/>
+<vertex x="1.905" y="89.9" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="0.905" y="88.9" curve="90"/>
+<vertex x="1.905" y="87.9" curve="90"/>
+<vertex x="2.905" y="88.9" curve="90"/>
+<vertex x="1.905" y="89.9" curve="90"/>
+</polygon>
+<wire x1="0" y1="100" x2="60" y2="100" width="0.127" layer="20"/>
+<wire x1="60" y1="100" x2="60" y2="93.73" width="0.127" layer="20"/>
+<wire x1="60" y1="93.73" x2="52" y2="93.73" width="0.127" layer="20"/>
+<wire x1="52" y1="93.73" x2="52" y2="90.678" width="0.127" layer="20"/>
+<wire x1="0" y1="100" x2="0" y2="93.73" width="0.127" layer="20"/>
+<wire x1="0" y1="93.73" x2="7" y2="93.73" width="0.127" layer="20"/>
+<wire x1="7" y1="93.73" x2="7" y2="90.678" width="0.127" layer="20"/>
+<wire x1="60" y1="0" x2="0" y2="0" width="0.127" layer="20"/>
+<wire x1="0" y1="0" x2="0" y2="7.54" width="0.127" layer="20"/>
+<wire x1="0" y1="7.54" x2="8" y2="7.54" width="0.127" layer="20"/>
+<wire x1="8" y1="7.54" x2="8" y2="10.16" width="0.127" layer="20"/>
+<wire x1="60" y1="0" x2="60" y2="7.54" width="0.127" layer="20"/>
+<wire x1="60" y1="7.54" x2="53" y2="7.54" width="0.127" layer="20"/>
+<wire x1="53" y1="7.54" x2="53" y2="10.16" width="0.127" layer="20"/>
+<text x="-16.54" y="90" size="1.6764" layer="46" font="vector">V-Groove</text>
+<text x="-15.54" y="10" size="1.6764" layer="46" font="vector">V-Groove</text>
+<hole x="5.08" y="96.52" drill="3.1"/>
+<hole x="55.25" y="96.52" drill="3.1"/>
+<hole x="5.08" y="3.81" drill="3.1"/>
+<hole x="53.98" y="3.81" drill="3.1"/>
+</package>
+<package name="IOB-IO4-CLEAN">
+<wire x1="0" y1="0" x2="53.34" y2="0" width="0.127" layer="48" style="shortdash"/>
+<wire x1="53.34" y1="0" x2="53.34" y2="20.32" width="0.127" layer="48" style="shortdash"/>
+<wire x1="53.34" y1="20.32" x2="0" y2="20.32" width="0.127" layer="48" style="shortdash"/>
+<wire x1="0" y1="20.32" x2="0" y2="16.637" width="0.127" layer="48" style="shortdash"/>
+<pad name="V5" x="12.319" y="18.288" drill="0.9" shape="square"/>
+<pad name="VOUT" x="9.779" y="18.034" drill="0.9"/>
+<pad name="V+" x="7.239" y="18.288" drill="0.9"/>
+<pad name="P1" x="44.958" y="12.446" drill="0.9"/>
+<pad name="P2" x="45.212" y="9.906" drill="0.9"/>
+<pad name="P3" x="44.958" y="7.366" drill="0.9"/>
+<pad name="P4" x="45.212" y="4.826" drill="0.9"/>
+<pad name="V5@1" x="45.212" y="14.986" drill="0.9" shape="square"/>
+<pad name="G@3" x="44.958" y="2.286" drill="0.9"/>
+<circle x="15.875" y="1.397" radius="0.127" width="0.0254" layer="48"/>
+<circle x="51.435" y="18.415" radius="0.127" width="0.0254" layer="48"/>
+<wire x1="0" y1="16.637" x2="0" y2="1.143" width="0.127" layer="48" style="shortdash"/>
+<wire x1="0" y1="1.143" x2="0" y2="0" width="0.127" layer="48" style="shortdash"/>
+<wire x1="0" y1="16.637" x2="12.954" y2="16.637" width="0.0254" layer="48"/>
+<wire x1="12.954" y1="16.637" x2="12.954" y2="1.143" width="0.0254" layer="48"/>
+<wire x1="12.954" y1="1.143" x2="0" y2="1.143" width="0.0254" layer="48"/>
+<text x="17.653" y="19.177" size="1.6764" layer="21" font="vector" rot="R180">5v</text>
+<text x="5.207" y="19.177" size="1.6764" layer="21" font="vector" rot="R180">VIN</text>
+<text x="42.799" y="12.065" size="1.27" layer="21" font="vector" rot="R90">1</text>
+<text x="42.799" y="9.525" size="1.27" layer="21" font="vector" rot="R90">2</text>
+<text x="42.799" y="6.985" size="1.27" layer="21" font="vector" rot="R90">3</text>
+<text x="42.799" y="4.445" size="1.27" layer="21" font="vector" rot="R90">4</text>
+<text x="42.799" y="14.605" size="1.27" layer="21" font="vector" rot="R90">5v</text>
+<text x="44.196" y="2.794" size="1.27" layer="21" font="vector" rot="R180">Gnd</text>
+</package>
 </packages>
 <symbols>
 <symbol name="I2C">
@@ -8372,6 +8498,11 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <technology name=""/>
 </technologies>
 </device>
+<device name="80X60" package="BOARD-DINRAIL-3.17INX6CM">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="LED*" prefix="LED" uservalue="yes">
@@ -8459,6 +8590,21 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 </gates>
 <devices>
 <device name="BARE" package="IO4-IOB">
+<connects>
+<connect gate="IOB" pin="5V" pad="V5 V5@1"/>
+<connect gate="IOB" pin="GND" pad="G@3"/>
+<connect gate="IOB" pin="P1" pad="P1"/>
+<connect gate="IOB" pin="P2" pad="P2"/>
+<connect gate="IOB" pin="P3" pad="P3"/>
+<connect gate="IOB" pin="P4" pad="P4"/>
+<connect gate="IOB" pin="VIN" pad="V+"/>
+<connect gate="IOB" pin="VOUT" pad="VOUT"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CLEAN" package="IOB-IO4-CLEAN">
 <connects>
 <connect gate="IOB" pin="5V" pad="V5 V5@1"/>
 <connect gate="IOB" pin="GND" pad="G@3"/>
@@ -9159,10 +9305,10 @@ LM1117 uses GOI pinout</description>
 <part name="LED16" library="SPCoast" deviceset="LED*" device="0603-LED" value="DIM-GREEN"/>
 <part name="P+14" library="supply1" deviceset="VCC" device=""/>
 <part name="BOARD1" library="SPCoast" deviceset="BOARD" device="80X100-IOB" value="BOARD80X100-IOB"/>
-<part name="IOB1" library="SPCoast" deviceset="CONNECTOR-IO4-IOB" device="BARE"/>
-<part name="IOB2" library="SPCoast" deviceset="CONNECTOR-IO4-IOB" device="BARE"/>
-<part name="IOB3" library="SPCoast" deviceset="CONNECTOR-IO4-IOB" device="BARE"/>
-<part name="IOB4" library="SPCoast" deviceset="CONNECTOR-IO4-IOB" device="BARE"/>
+<part name="IOB1" library="SPCoast" deviceset="CONNECTOR-IO4-IOB" device="CLEAN" value="CONNECTOR-IO4-IOBCLEAN"/>
+<part name="IOB2" library="SPCoast" deviceset="CONNECTOR-IO4-IOB" device="CLEAN" value="CONNECTOR-IO4-IOBCLEAN"/>
+<part name="IOB3" library="SPCoast" deviceset="CONNECTOR-IO4-IOB" device="CLEAN" value="CONNECTOR-IO4-IOBCLEAN"/>
+<part name="IOB4" library="SPCoast" deviceset="CONNECTOR-IO4-IOB" device="BARE" value="CONNECTOR-IO4-IOBBARE"/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
 <part name="P+7" library="supply1" deviceset="VCC" device=""/>
 <part name="P+8" library="supply1" deviceset="VCC" device=""/>
