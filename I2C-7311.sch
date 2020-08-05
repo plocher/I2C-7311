@@ -9606,9 +9606,9 @@ LM1117 uses GOI pinout</description>
 <text x="152.4" y="27.94" size="3.81" layer="97">I2C  MAX7311-IOB</text>
 <text x="152.908" y="23.876" size="2.54" layer="97">IO Expander  with IOB daughterboards</text>
 <text x="152.908" y="6.35" size="3.81" layer="97">John Plocher</text>
-<text x="235.458" y="6.604" size="3.81" layer="97">3.0</text>
+<text x="235.458" y="6.604" size="3.81" layer="97">3.1</text>
 <text x="149.86" y="38.1" size="1.4224" layer="102">Changes
-IOB v2 - combine Vin/5v and Vout on passthru pins to daughterboard</text>
+V3.1 - Fixed SPCoast component orientations on PCB</text>
 <text x="93.98" y="177.8" size="1.778" layer="102">MAX7311 - FET drive high/low with 100k builtin pullup</text>
 </plain>
 <instances>
