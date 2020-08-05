@@ -8,8 +8,8 @@
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="dots" multiple="2" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="2" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="23" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="29" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -695,30 +695,30 @@ Source: DCJ0202.pdf</description>
 </package>
 <package name="SOT23">
 <description>DIODE</description>
-<wire x1="0.3048" y1="-0.65" x2="-0.3048" y2="-0.65" width="0.1524" layer="21"/>
-<wire x1="-1.5" y1="-0.15" x2="-1.5" y2="0.65" width="0.1524" layer="21"/>
-<wire x1="-1.5" y1="0.65" x2="-0.635" y2="0.65" width="0.1524" layer="21"/>
-<wire x1="1.5" y1="0.65" x2="1.5" y2="-0.15" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="0.65" x2="1.5" y2="0.65" width="0.1524" layer="21"/>
-<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<wire x1="0.65" y1="0.3048" x2="0.65" y2="-0.3048" width="0.1524" layer="21"/>
+<wire x1="0.15" y1="-1.5" x2="-0.65" y2="-1.5" width="0.1524" layer="21"/>
+<wire x1="-0.65" y1="-1.5" x2="-0.65" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-0.65" y1="1.5" x2="0.15" y2="1.5" width="0.1524" layer="21"/>
+<wire x1="-0.65" y1="0.635" x2="-0.65" y2="1.5" width="0.1524" layer="21"/>
+<smd name="3" x="-1.1" y="0" dx="1" dy="1.4" layer="1" rot="R90"/>
+<smd name="2" x="1.1" y="0.95" dx="1" dy="1.4" layer="1" rot="R90"/>
+<smd name="1" x="1.1" y="-0.95" dx="1" dy="1.4" layer="1" rot="R90"/>
 <text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-1.5" y1="-0.25" x2="-1.5" y2="-0.65" width="0.1524" layer="51"/>
-<wire x1="-1.5" y1="-0.65" x2="-0.5" y2="-0.65" width="0.1524" layer="51"/>
-<wire x1="1.5" y1="-0.25" x2="1.5" y2="-0.65" width="0.1524" layer="51"/>
-<wire x1="1.5" y1="-0.65" x2="0.5" y2="-0.65" width="0.1524" layer="51"/>
-<wire x1="-1.25" y1="-0.75" x2="-1.25" y2="-1.5" width="0.0508" layer="51"/>
-<wire x1="-1.25" y1="-1.5" x2="-0.75" y2="-1.5" width="0.0508" layer="51"/>
-<wire x1="-0.75" y1="-1.5" x2="-0.75" y2="-0.75" width="0.0508" layer="51"/>
-<wire x1="0.75" y1="-0.75" x2="0.75" y2="-1.5" width="0.0508" layer="51"/>
-<wire x1="0.75" y1="-1.5" x2="1.25" y2="-1.5" width="0.0508" layer="51"/>
-<wire x1="1.25" y1="-1.5" x2="1.25" y2="-0.75" width="0.0508" layer="51"/>
-<wire x1="-0.25" y1="0.75" x2="-0.25" y2="1.5" width="0.0508" layer="51"/>
-<wire x1="-0.25" y1="1.5" x2="0.25" y2="1.5" width="0.0508" layer="51"/>
-<wire x1="0.25" y1="1.5" x2="0.25" y2="0.75" width="0.0508" layer="51"/>
-<wire x1="-0.5" y1="0.65" x2="0.5" y2="0.65" width="0.1524" layer="51"/>
+<wire x1="0.25" y1="-1.5" x2="0.65" y2="-1.5" width="0.1524" layer="51"/>
+<wire x1="0.65" y1="-1.5" x2="0.65" y2="-0.5" width="0.1524" layer="51"/>
+<wire x1="0.25" y1="1.5" x2="0.65" y2="1.5" width="0.1524" layer="51"/>
+<wire x1="0.65" y1="1.5" x2="0.65" y2="0.5" width="0.1524" layer="51"/>
+<wire x1="0.75" y1="-1.25" x2="1.5" y2="-1.25" width="0.0508" layer="51"/>
+<wire x1="1.5" y1="-1.25" x2="1.5" y2="-0.75" width="0.0508" layer="51"/>
+<wire x1="1.5" y1="-0.75" x2="0.75" y2="-0.75" width="0.0508" layer="51"/>
+<wire x1="0.75" y1="0.75" x2="1.5" y2="0.75" width="0.0508" layer="51"/>
+<wire x1="1.5" y1="0.75" x2="1.5" y2="1.25" width="0.0508" layer="51"/>
+<wire x1="1.5" y1="1.25" x2="0.75" y2="1.25" width="0.0508" layer="51"/>
+<wire x1="-0.75" y1="-0.25" x2="-1.5" y2="-0.25" width="0.0508" layer="51"/>
+<wire x1="-1.5" y1="-0.25" x2="-1.5" y2="0.25" width="0.0508" layer="51"/>
+<wire x1="-1.5" y1="0.25" x2="-0.75" y2="0.25" width="0.0508" layer="51"/>
+<wire x1="-0.65" y1="-0.5" x2="-0.65" y2="0.5" width="0.1524" layer="51"/>
 </package>
 <package name="0805-RES">
 <smd name="1" x="-0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
@@ -1118,17 +1118,17 @@ design rules under a new name.</description>
 <element name="LED2" library="SPCoast" package="0603-LED" value="Y" x="85.09" y="34.29" smashed="yes" rot="R90"/>
 <element name="LED3" library="SPCoast" package="0603-LED" value="Y" x="81.28" y="34.29" smashed="yes" rot="R90"/>
 <element name="LED4" library="SPCoast" package="0603-LED" value="Y" x="77.47" y="34.29" smashed="yes" rot="R90"/>
-<element name="Q0" library="SPCoast" package="SOT23" value="P-FET" x="88.9" y="38.735" smashed="yes" rot="R180">
-<attribute name="NAME" x="90.424" y="38.481" size="0.254" layer="25" ratio="11" rot="R270"/>
+<element name="Q0" library="SPCoast" package="SOT23" value="P-FET" x="88.9" y="38.735" smashed="yes" rot="R90">
+<attribute name="NAME" x="88.646" y="37.211" size="0.254" layer="25" ratio="11" rot="R180"/>
 </element>
-<element name="Q1" library="SPCoast" package="SOT23" value="P-FET" x="85.09" y="38.735" smashed="yes" rot="R180">
-<attribute name="NAME" x="86.614" y="38.481" size="0.254" layer="25" ratio="11" rot="R270"/>
+<element name="Q1" library="SPCoast" package="SOT23" value="P-FET" x="85.09" y="38.735" smashed="yes" rot="R90">
+<attribute name="NAME" x="84.836" y="37.211" size="0.254" layer="25" ratio="11" rot="R180"/>
 </element>
-<element name="Q2" library="SPCoast" package="SOT23" value="P-FET" x="81.28" y="38.735" smashed="yes" rot="R180">
-<attribute name="NAME" x="82.804" y="38.481" size="0.254" layer="25" ratio="11" rot="R270"/>
+<element name="Q2" library="SPCoast" package="SOT23" value="P-FET" x="81.28" y="38.735" smashed="yes" rot="R90">
+<attribute name="NAME" x="81.026" y="37.211" size="0.254" layer="25" ratio="11" rot="R180"/>
 </element>
-<element name="Q3" library="SPCoast" package="SOT23" value="P-FET" x="77.47" y="38.735" smashed="yes" rot="R180">
-<attribute name="NAME" x="78.994" y="38.481" size="0.254" layer="25" ratio="11" rot="R270"/>
+<element name="Q3" library="SPCoast" package="SOT23" value="P-FET" x="77.47" y="38.735" smashed="yes" rot="R90">
+<attribute name="NAME" x="77.216" y="37.211" size="0.254" layer="25" ratio="11" rot="R180"/>
 </element>
 <element name="R7" library="SPCoast" package="0805-RES" value="2K0" x="86.995" y="36.195" smashed="yes" rot="R90">
 <attribute name="NAME" x="86.1695" y="35.433" size="0.254" layer="25" rot="R90"/>
@@ -1146,17 +1146,17 @@ design rules under a new name.</description>
 <element name="LED5" library="SPCoast" package="0603-LED" value="Y" x="63.5" y="34.29" smashed="yes" rot="R90"/>
 <element name="LED6" library="SPCoast" package="0603-LED" value="Y" x="59.69" y="34.29" smashed="yes" rot="R90"/>
 <element name="LED7" library="SPCoast" package="0603-LED" value="Y" x="55.88" y="34.29" smashed="yes" rot="R90"/>
-<element name="Q4" library="SPCoast" package="SOT23" value="P-FET" x="67.31" y="38.735" smashed="yes" rot="R180">
-<attribute name="NAME" x="68.834" y="38.481" size="0.254" layer="25" ratio="11" rot="R270"/>
+<element name="Q4" library="SPCoast" package="SOT23" value="P-FET" x="67.31" y="38.735" smashed="yes" rot="R90">
+<attribute name="NAME" x="67.056" y="37.211" size="0.254" layer="25" ratio="11" rot="R180"/>
 </element>
-<element name="Q5" library="SPCoast" package="SOT23" value="P-FET" x="63.5" y="38.735" smashed="yes" rot="R180">
-<attribute name="NAME" x="65.024" y="38.481" size="0.254" layer="25" ratio="11" rot="R270"/>
+<element name="Q5" library="SPCoast" package="SOT23" value="P-FET" x="63.5" y="38.735" smashed="yes" rot="R90">
+<attribute name="NAME" x="63.246" y="37.211" size="0.254" layer="25" ratio="11" rot="R180"/>
 </element>
-<element name="Q6" library="SPCoast" package="SOT23" value="P-FET" x="59.69" y="38.735" smashed="yes" rot="R180">
-<attribute name="NAME" x="61.214" y="38.481" size="0.254" layer="25" ratio="11" rot="R270"/>
+<element name="Q6" library="SPCoast" package="SOT23" value="P-FET" x="59.69" y="38.735" smashed="yes" rot="R90">
+<attribute name="NAME" x="59.436" y="37.211" size="0.254" layer="25" ratio="11" rot="R180"/>
 </element>
-<element name="Q7" library="SPCoast" package="SOT23" value="P-FET" x="55.88" y="38.735" smashed="yes" rot="R180">
-<attribute name="NAME" x="57.404" y="38.481" size="0.254" layer="25" ratio="11" rot="R270"/>
+<element name="Q7" library="SPCoast" package="SOT23" value="P-FET" x="55.88" y="38.735" smashed="yes" rot="R90">
+<attribute name="NAME" x="55.626" y="37.211" size="0.254" layer="25" ratio="11" rot="R180"/>
 </element>
 <element name="R11" library="SPCoast" package="0805-RES" value="2K0" x="65.405" y="36.195" smashed="yes" rot="R90">
 <attribute name="NAME" x="64.5795" y="35.433" size="0.254" layer="25" rot="R90"/>
@@ -1180,17 +1180,17 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="44.069" y="35.941" size="1.016" layer="27" rot="R180"/>
 </element>
 <element name="LED11" library="SPCoast" package="0603-LED" value="Y" x="34.29" y="34.29" smashed="yes" rot="R90"/>
-<element name="Q8" library="SPCoast" package="SOT23" value="P-FET" x="45.72" y="38.735" smashed="yes" rot="R180">
-<attribute name="NAME" x="47.244" y="38.481" size="0.254" layer="25" ratio="11" rot="R270"/>
+<element name="Q8" library="SPCoast" package="SOT23" value="P-FET" x="45.72" y="38.735" smashed="yes" rot="R90">
+<attribute name="NAME" x="45.466" y="37.211" size="0.254" layer="25" ratio="11" rot="R180"/>
 </element>
-<element name="Q9" library="SPCoast" package="SOT23" value="P-FET" x="41.91" y="38.735" smashed="yes" rot="R180">
-<attribute name="NAME" x="43.434" y="38.481" size="0.254" layer="25" ratio="11" rot="R270"/>
+<element name="Q9" library="SPCoast" package="SOT23" value="P-FET" x="41.91" y="38.735" smashed="yes" rot="R90">
+<attribute name="NAME" x="41.656" y="37.211" size="0.254" layer="25" ratio="11" rot="R180"/>
 </element>
-<element name="Q10" library="SPCoast" package="SOT23" value="P-FET" x="38.1" y="38.735" smashed="yes" rot="R180">
-<attribute name="NAME" x="39.624" y="38.481" size="0.254" layer="25" ratio="11" rot="R270"/>
+<element name="Q10" library="SPCoast" package="SOT23" value="P-FET" x="38.1" y="38.735" smashed="yes" rot="R90">
+<attribute name="NAME" x="37.846" y="37.211" size="0.254" layer="25" ratio="11" rot="R180"/>
 </element>
-<element name="Q11" library="SPCoast" package="SOT23" value="P-FET" x="34.29" y="38.735" smashed="yes" rot="R180">
-<attribute name="NAME" x="35.814" y="38.481" size="0.254" layer="25" ratio="11" rot="R270"/>
+<element name="Q11" library="SPCoast" package="SOT23" value="P-FET" x="34.29" y="38.735" smashed="yes" rot="R90">
+<attribute name="NAME" x="34.036" y="37.211" size="0.254" layer="25" ratio="11" rot="R180"/>
 </element>
 <element name="R15" library="SPCoast" package="0805-RES" value="2K0" x="43.815" y="36.195" smashed="yes" rot="R90">
 <attribute name="NAME" x="42.9895" y="35.433" size="0.254" layer="25" rot="R90"/>
@@ -1208,17 +1208,17 @@ design rules under a new name.</description>
 <element name="LED13" library="SPCoast" package="0603-LED" value="Y" x="20.32" y="34.29" smashed="yes" rot="R90"/>
 <element name="LED14" library="SPCoast" package="0603-LED" value="Y" x="16.51" y="34.29" smashed="yes" rot="R90"/>
 <element name="LED15" library="SPCoast" package="0603-LED" value="Y" x="12.7" y="34.29" smashed="yes" rot="R90"/>
-<element name="Q12" library="SPCoast" package="SOT23" value="P-FET" x="24.13" y="38.735" smashed="yes" rot="R180">
-<attribute name="NAME" x="25.654" y="38.481" size="0.254" layer="25" ratio="11" rot="R270"/>
+<element name="Q12" library="SPCoast" package="SOT23" value="P-FET" x="24.13" y="38.735" smashed="yes" rot="R90">
+<attribute name="NAME" x="23.876" y="37.211" size="0.254" layer="25" ratio="11" rot="R180"/>
 </element>
-<element name="Q13" library="SPCoast" package="SOT23" value="P-FET" x="20.32" y="38.735" smashed="yes" rot="R180">
-<attribute name="NAME" x="21.844" y="38.481" size="0.254" layer="25" ratio="11" rot="R270"/>
+<element name="Q13" library="SPCoast" package="SOT23" value="P-FET" x="20.32" y="38.735" smashed="yes" rot="R90">
+<attribute name="NAME" x="20.066" y="37.211" size="0.254" layer="25" ratio="11" rot="R180"/>
 </element>
-<element name="Q14" library="SPCoast" package="SOT23" value="P-FET" x="16.51" y="38.735" smashed="yes" rot="R180">
-<attribute name="NAME" x="18.034" y="38.481" size="0.254" layer="25" ratio="11" rot="R270"/>
+<element name="Q14" library="SPCoast" package="SOT23" value="P-FET" x="16.51" y="38.735" smashed="yes" rot="R90">
+<attribute name="NAME" x="16.256" y="37.211" size="0.254" layer="25" ratio="11" rot="R180"/>
 </element>
-<element name="Q15" library="SPCoast" package="SOT23" value="P-FET" x="12.7" y="38.735" smashed="yes" rot="R180">
-<attribute name="NAME" x="14.224" y="38.481" size="0.254" layer="25" ratio="11" rot="R270"/>
+<element name="Q15" library="SPCoast" package="SOT23" value="P-FET" x="12.7" y="38.735" smashed="yes" rot="R90">
+<attribute name="NAME" x="12.446" y="37.211" size="0.254" layer="25" ratio="11" rot="R180"/>
 </element>
 <element name="R22" library="SPCoast" package="0805-RES" value="2K0" x="22.225" y="36.195" smashed="yes" rot="R90">
 <attribute name="NAME" x="21.3995" y="35.433" size="0.254" layer="25" rot="R90"/>
