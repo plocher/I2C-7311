@@ -8,8 +8,8 @@
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="dots" multiple="2" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="2" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="23" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="29" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -174,10 +174,10 @@
    I2C digital I/O </text>
 <text x="30.4198" y="75.311" size="3.81" layer="22" font="vector" ratio="20" rot="MR180">I2C-7313-IOB</text>
 <text x="22.622" y="56.642" size="1.4224" layer="22" font="vector" ratio="15" rot="MR344">Go Bears!</text>
-<text x="75.99675" y="60.80243125" size="1.27" layer="21" rot="SR0">16 bit I2C 
+<text x="75.99675" y="64.61243125" size="1.27" layer="21" rot="SR0">16 bit I2C 
 Digital I/O
 Active Low</text>
-<text x="76.34399375" y="83.389009375" size="1.016" layer="21">John Plocher</text>
+<text x="55.38899375" y="85.294009375" size="1.016" layer="21">John Plocher</text>
 <text x="81.8802" y="14.5034" size="1.016" layer="22" rot="SMR0">A "1" bit in the I/O register is associated with a LOW voltage on a pin,
 and a LIT feedback LED.</text>
 <text x="39.2938" y="22.5576875" size="1.016" layer="21" rot="SR90">Board
@@ -186,8 +186,8 @@ Address</text>
 <text x="93.0275" y="30.7975" size="1.016" layer="21" ratio="10">9 vDC</text>
 <text x="8.41375" y="32.4485" size="1.016" layer="21" ratio="10" rot="R180">9 vDC</text>
 <text x="13.589" y="70.231" size="1.27" layer="21" rot="SR0">7805</text>
-<text x="77.35999375" y="68.339509375" size="1.016" layer="21">Hardware</text>
-<text x="76.34399375" y="77.610509375" size="1.016" layer="21">Open Source</text>
+<text x="78.62999375" y="78.499509375" size="1.016" layer="21">Hardware</text>
+<text x="77.61399375" y="86.500509375" size="1.016" layer="21">Open Source</text>
 <text x="1.27" y="103.505" size="1.016" layer="48">3.0A - Fixed C-POL, LED and VREG library component orientations to match default reel orientation, no PCB changes</text>
 <text x="0.889" y="17.399" size="1.27" layer="21">5v</text>
 <text x="57.912" y="73.914" size="0.8128" layer="21" rot="R180">Input
@@ -206,7 +206,7 @@ MAX7318-AUG</text>
 <text x="24.765" y="49.53" size="1.27" layer="21" rot="SR0">Byte 1</text>
 <text x="86.01339375" y="97.380534375" size="1.27" layer="21" rot="SR0">v3.1</text>
 <text x="85.48799375" y="95.645009375" size="1.016" layer="21">2020.08</text>
-<text x="53.73799375" y="80.405009375" size="1.016" layer="21">2018.01 1.0
+<text x="55.00799375" y="79.135009375" size="1.016" layer="21">2018.01 1.0
 2018.08 2.0
 2020.02 3.0
 2020.08 3.0A</text>
@@ -472,10 +472,10 @@ Layout for IOB I2C cards</text>
 <wire x1="50.038" y1="1.27" x2="51.943" y2="1.27" width="2.1844" layer="22"/>
 <text x="38.227" y="18.288" size="1.27" layer="22" font="vector" rot="MR0">IOB to IO4 Interface</text>
 <text x="39.751" y="0.508" size="1.016" layer="22" font="vector" rot="MR0">Made in the PCR, Coast Div, NMRA</text>
-<text x="39.37" y="16.129" size="1.016" layer="22" font="vector" rot="MR0">Model Railroading is   Fun!</text>
+<text x="39.37" y="16.129" size="1.016" layer="22" font="vector" rot="MR0">Model Railroading is Fun!</text>
 <wire x1="43.053" y1="19.05" x2="43.053" y2="1.27" width="1.27" layer="22"/>
 </package>
-<package name="IOB-IO4-CLEAN">
+<package name="IOB-IO4-NOBOTSILK">
 <wire x1="0" y1="0" x2="53.34" y2="0" width="0.127" layer="48" style="shortdash"/>
 <wire x1="53.34" y1="0" x2="53.34" y2="20.32" width="0.127" layer="48" style="shortdash"/>
 <wire x1="53.34" y1="20.32" x2="0" y2="20.32" width="0.127" layer="48" style="shortdash"/>
@@ -1076,7 +1076,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="49.3268" y="63.63325" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="50.38735" y="64.3254" size="0.8128" layer="27"/>
 </element>
-<element name="U$1" library="SparkFun" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="80.645" y="72.517" smashed="yes"/>
+<element name="U$1" library="SparkFun" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="81.915" y="82.677" smashed="yes"/>
 <element name="VR1" library="SPCoast" package="TO-252" value="CJ7805" x="13.335" y="78.74" smashed="yes">
 <attribute name="NAME" x="12.7" y="70.485" size="0.8128" layer="25" ratio="11" rot="R90"/>
 </element>
@@ -1096,12 +1096,16 @@ design rules under a new name.</description>
 <attribute name="NAME" x="46.355" y="70.104" size="0.8128" layer="25"/>
 </element>
 <element name="BOARD1" library="SPCoast" package="BOARD-DINRAIL-3.17IN-IOB" value="BOARD80X100-IOB" x="0" y="0"/>
-<element name="IOB1" library="SPCoast" package="IOB-IO4-CLEAN" value="CONNECTOR-IO4-IOBCLEAN" x="73.66" y="90.17" rot="R270"/>
-<element name="IOB2" library="SPCoast" package="IOB-IO4-CLEAN" value="CONNECTOR-IO4-IOBCLEAN" x="52.07" y="90.17" rot="R270"/>
-<element name="IOB3" library="SPCoast" package="IOB-IO4-CLEAN" value="CONNECTOR-IO4-IOBCLEAN" x="30.48" y="90.17" rot="R270"/>
-<element name="IOB4" library="SPCoast" package="IO4-IOB" value="CONNECTOR-IO4-IOBBARE" x="8.89" y="90.17" rot="R270"/>
-<element name="FID1" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="8.763" y="92.456"/>
-<element name="FID2" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="97.79" y="5.461"/>
+<element name="IOB1" library="SPCoast" package="IOB-IO4-NOBOTSILK" value="CONNECTOR-IO4-IOBNOBSILK" x="73.66" y="90.17" rot="R270"/>
+<element name="IOB2" library="SPCoast" package="IOB-IO4-NOBOTSILK" value="CONNECTOR-IO4-IOBNOBSILK" x="52.07" y="90.17" rot="R270"/>
+<element name="IOB3" library="SPCoast" package="IOB-IO4-NOBOTSILK" value="CONNECTOR-IO4-IOBNOBSILK" x="30.48" y="90.17" rot="R270"/>
+<element name="IOB4" library="SPCoast" package="IO4-IOB" value="CONNECTOR-IO4-IOBFULL" x="8.89" y="90.17" rot="R270"/>
+<element name="FID-UL" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="8.763" y="92.456" smashed="yes">
+<attribute name="NAME" x="10.668" y="92.456" size="1.016" layer="25"/>
+</element>
+<element name="FID-LR" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="97.79" y="5.461" smashed="yes">
+<attribute name="NAME" x="94.615" y="0.381" size="1.016" layer="25"/>
+</element>
 <element name="IC1" library="SPCoast" package="TSSOP24" value="MAX7311" x="51.435" y="57.15" smashed="yes" rot="R90">
 <attribute name="NAME" x="53.0225" y="59.3725" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="51.816" y="54.6735" size="0.8128" layer="27" rot="R90"/>

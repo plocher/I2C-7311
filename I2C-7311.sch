@@ -8,34 +8,34 @@
 </settings>
 <grid distance="100" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="2" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="23" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="29" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="19" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="22" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="30" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="63" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="34" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="56" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="2" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="23" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="29" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="19" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="22" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="30" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="63" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="34" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="56" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="3" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="16" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="35" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="35" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="21" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="57" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="48" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="49" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="35" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="21" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="57" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="48" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="49" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -4698,7 +4698,7 @@ Standard 8.5x11 US Letter frame</description>
 <wire x1="50.038" y1="1.27" x2="51.943" y2="1.27" width="2.1844" layer="22"/>
 <text x="38.227" y="18.288" size="1.27" layer="22" font="vector" rot="MR0">IOB to IO4 Interface</text>
 <text x="39.751" y="0.508" size="1.016" layer="22" font="vector" rot="MR0">Made in the PCR, Coast Div, NMRA</text>
-<text x="39.37" y="16.129" size="1.016" layer="22" font="vector" rot="MR0">Model Railroading is   Fun!</text>
+<text x="39.37" y="16.129" size="1.016" layer="22" font="vector" rot="MR0">Model Railroading is Fun!</text>
 <wire x1="43.053" y1="19.05" x2="43.053" y2="1.27" width="1.27" layer="22"/>
 </package>
 <package name="FIDUCIAL_1MM">
@@ -7001,7 +7001,7 @@ Layout for IOB I2C cards</text>
 <text x="-2.238" y="-4.874" size="1.016" layer="21" font="vector" rot="SR90">GND</text>
 <wire x1="2.413" y1="0" x2="-1.778" y2="0" width="0.254" layer="21"/>
 </package>
-<package name="IOB-IO4-CLEAN">
+<package name="IOB-IO4-NOBOTSILK">
 <wire x1="0" y1="0" x2="53.34" y2="0" width="0.127" layer="48" style="shortdash"/>
 <wire x1="53.34" y1="0" x2="53.34" y2="20.32" width="0.127" layer="48" style="shortdash"/>
 <wire x1="53.34" y1="20.32" x2="0" y2="20.32" width="0.127" layer="48" style="shortdash"/>
@@ -8758,7 +8758,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <gate name="IOB" symbol="IO4-IOB" x="0" y="0"/>
 </gates>
 <devices>
-<device name="BARE" package="IO4-IOB">
+<device name="FULL" package="IO4-IOB">
 <connects>
 <connect gate="IOB" pin="5V" pad="V5 V5@1"/>
 <connect gate="IOB" pin="GND" pad="G@3"/>
@@ -8773,7 +8773,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <technology name=""/>
 </technologies>
 </device>
-<device name="CLEAN" package="IOB-IO4-CLEAN">
+<device name="NOBSILK" package="IOB-IO4-NOBOTSILK">
 <connects>
 <connect gate="IOB" pin="5V" pad="V5 V5@1"/>
 <connect gate="IOB" pin="GND" pad="G@3"/>
@@ -9483,10 +9483,10 @@ LM1117 uses GOI pinout</description>
 <part name="LED16" library="SPCoast" deviceset="LED*" device="0603-LED" value="G"/>
 <part name="P+14" library="supply1" deviceset="VCC" device=""/>
 <part name="BOARD1" library="SPCoast" deviceset="BOARD" device="80X100-IOB" value="BOARD80X100-IOB"/>
-<part name="IOB1" library="SPCoast" deviceset="CONNECTOR-IO4-IOB" device="CLEAN" value="CONNECTOR-IO4-IOBCLEAN"/>
-<part name="IOB2" library="SPCoast" deviceset="CONNECTOR-IO4-IOB" device="CLEAN" value="CONNECTOR-IO4-IOBCLEAN"/>
-<part name="IOB3" library="SPCoast" deviceset="CONNECTOR-IO4-IOB" device="CLEAN" value="CONNECTOR-IO4-IOBCLEAN"/>
-<part name="IOB4" library="SPCoast" deviceset="CONNECTOR-IO4-IOB" device="BARE" value="CONNECTOR-IO4-IOBBARE"/>
+<part name="IOB1" library="SPCoast" deviceset="CONNECTOR-IO4-IOB" device="NOBSILK" value="CONNECTOR-IO4-IOBNOBSILK"/>
+<part name="IOB2" library="SPCoast" deviceset="CONNECTOR-IO4-IOB" device="NOBSILK" value="CONNECTOR-IO4-IOBNOBSILK"/>
+<part name="IOB3" library="SPCoast" deviceset="CONNECTOR-IO4-IOB" device="NOBSILK" value="CONNECTOR-IO4-IOBNOBSILK"/>
+<part name="IOB4" library="SPCoast" deviceset="CONNECTOR-IO4-IOB" device="FULL" value="CONNECTOR-IO4-IOBFULL"/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
 <part name="P+7" library="supply1" deviceset="VCC" device=""/>
 <part name="P+8" library="supply1" deviceset="VCC" device=""/>
@@ -9499,8 +9499,8 @@ LM1117 uses GOI pinout</description>
 <part name="SUPPLY4" library="supply2" deviceset="+9V" device=""/>
 <part name="SUPPLY5" library="supply2" deviceset="+9V" device=""/>
 <part name="SUPPLY6" library="supply2" deviceset="+9V" device=""/>
-<part name="FID1" library="SPCoast" deviceset="FIDUCIAL" device=""/>
-<part name="FID2" library="SPCoast" deviceset="FIDUCIAL" device=""/>
+<part name="FID-UL" library="SPCoast" deviceset="FIDUCIAL" device=""/>
+<part name="FID-LR" library="SPCoast" deviceset="FIDUCIAL" device=""/>
 <part name="IC1" library="SPCoast" deviceset="MAX73XX" device="/AUG" value="MAX7311"/>
 <part name="SW1" library="SPCoast" deviceset="SW_DIP-4" device="" value="A0"/>
 <part name="SW2" library="SPCoast" deviceset="SW_DIP-4" device="" value="A1"/>
@@ -9697,8 +9697,8 @@ V3.1 - Fixed SPCoast component orientations on PCB</text>
 <instance part="SUPPLY4" gate="G$1" x="185.42" y="142.24"/>
 <instance part="SUPPLY5" gate="G$1" x="185.42" y="114.3"/>
 <instance part="SUPPLY6" gate="G$1" x="185.42" y="86.36"/>
-<instance part="FID1" gate="FID1" x="243.84" y="48.26"/>
-<instance part="FID2" gate="FID1" x="243.84" y="55.88"/>
+<instance part="FID-UL" gate="FID1" x="243.84" y="48.26"/>
+<instance part="FID-LR" gate="FID1" x="243.84" y="55.88"/>
 <instance part="IC1" gate="U1" x="144.78" y="119.38"/>
 <instance part="SW1" gate="A" x="66.04" y="134.62"/>
 <instance part="SW2" gate="A" x="66.04" y="116.84"/>

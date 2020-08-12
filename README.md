@@ -12,11 +12,11 @@ communications bus (Ethernet, CAN or Loconet), and I couldn\'t find
 anything that had both high IO point density AND visual feedback.
 
 I started with a simple I2C based 32-pin Arduino
-[IOShield](IOShield "wikilink") with monitoring LEDs on each pin
+[IOShield](/pages/IOShield "wikilink") with monitoring LEDs on each pin
 (Active-LOW inputs, LED is on when pin is grounded, writing a \"1\" to
 the port pulls it to ground). I was aiming to support up to the max I2C
 devices that can be used together, with the 8-bit board
-[I2C-8574-IO](I2C-8574-IO "wikilink") (deprecated), that was a total of
+[I2C-8574-IO](/pages/I2C-8574-IO "wikilink") (deprecated), that was a total of
 8x boards with 128 i/o points.
 
 The 7311 IO expanders used here will support up to 64 boards, with 1024
@@ -59,12 +59,10 @@ to LEDs that show the status of the I/O lines in real time. They also
 contain the needed circuitry to drive / sense the appliances connected
 to them. See
 
--   [IOB-Inputs](IOB-Inputs "wikilink") 4x buffered inputs
--   [IOB-Outputs](IOB-Outputs "wikilink") 4x buffered outputs
--   [IOB-Turtle](IOB-Turtle "wikilink") 1x buffered output and 3x
-    buffered inputs
--   [IOB-Signal](IOB-Signal "wikilink") 2x RGB signal head driver (Dark,
-    Stop, Approach, Clear)
+-   [IOB-Inputs](/pages/IOB-Inputs "wikilink") 4x buffered inputs
+-   [IOB-Outputs](/pages/IOB-Outputs "wikilink") 4x buffered outputs
+-   [IOB-Turtle](/pages/IOB-Turtle "wikilink") 1x buffered output and 3x buffered inputs
+-   [IOB-Signal](/pages/IOB-Signal "wikilink") 2x RGB signal head driver (Dark, Stop, Approach, Clear)
 
 Each board provides a latched set of 16x IO points, with each point
 being software selectable to be either an input or an output. The
@@ -105,5 +103,77 @@ void I2Cexpander::write7311(uint16_t data) {
 }
 ```
 
-See [I2Cexpander](I2Cexpander "wikilink") for a more complete interface
+See [I2Cexpander-lib](/pages/I2Cexpander "wikilink") for a more complete interface
 library.
+
+
+#### Addressing
+
+**AD2**|**AD1**|**AD0**|**A6**|**A5**|**A4**|**A3**|**A2**|**A1**|**A0**|**ADDRESS (HEX)**
+:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
+GND|SCL|GND|0|0|1|0|0|0|0|0x20
+GND|SCL|V+|0|0|1|0|0|0|1|0x22
+GND|SDA|GND|0|0|1|0|0|1|0|0x24
+GND|SDA|V+|0|0|1|0|0|1|1|0x26
+V+|SCL|GND|0|0|1|0|1|0|0|0x28
+V+|SCL|V+|0|0|1|0|1|0|1|0x2A
+V+|SDA|GND|0|0|1|0|1|1|0|0x2C
+V+|SDA|V+|0|0|1|0|1|1|1|0x2E
+GND|SCL|SCL|0|0|1|1|0|0|0|0x30
+GND|SCL|SDA|0|0|1|1|0|0|1|0x32
+GND|SDA|SCL|0|0|1|1|0|1|0|0x34
+GND|SDA|SDA|0|0|1|1|0|1|1|0x36
+V+|SCL|SCL|0|0|1|1|1|0|0|0x38
+V+|SCL|SDA|0|0|1|1|1|0|1|0x3A
+V+|SDA|SCL|0|0|1|1|1|1|0|0x3C
+V+|SDA|SDA|0|0|1|1|1|1|1|0x3E
+GND|GND|GND|0|1|0|0|0|0|0|0x40
+GND|GND|V+|0|1|0|0|0|0|1|0x42
+GND|V+|GND|0|1|0|0|0|1|0|0x44
+GND|V+|V+|0|1|0|0|0|1|1|0x46
+V+|GND|GND|0|1|0|0|1|0|0|0x48
+V+|GND|V+|0|1|0|0|1|0|1|0x4A
+V+|V+|GND|0|1|0|0|1|1|0|0x4C
+V+|V+|V+|0|1|0|0|1|1|1|0x4E
+GND|GND|SCL|0|1|0|1|0|0|0|0x50
+GND|GND|SDA|0|1|0|1|0|0|1|0x52
+GND|V+|SCL|0|1|0|1|0|1|0|0x54
+GND|V+|SDA|0|1|0|1|0|1|1|0x56
+V+|GND|SCL|0|1|0|1|1|0|0|0x58
+V+|GND|SDA|0|1|0|1|1|0|1|0x5A
+V+|V+|SCL|0|1|0|1|1|1|0|0x5C
+V+|V+|SDA|0|1|0|1|1|1|1|0x5E
+SCL|SCL|GND|1|0|1|0|0|0|0|0xA0
+SCL|SCL|V+|1|0|1|0|0|0|1|0xA2
+SCL|SDA|GND|1|0|1|0|0|1|0|0xA4
+SCL|SDA|V+|1|0|1|0|0|1|1|0xA6
+SDA|SCL|GND|1|0|1|0|1|0|0|0xA8
+SDA|SCL|V+|1|0|1|0|1|0|1|0xAA
+SDA|SDA|GND|1|0|1|0|1|1|0|0xAC
+SDA|SDA|V+|1|0|1|0|1|1|1|0xAE
+SCL|SCL|SCL|1|0|1|1|0|0|0|0xB0
+SCL|SCL|SDA|1|0|1|1|0|0|1|0xB2
+SCL|SDA|SCL|1|0|1|1|0|1|0|0xB4
+SCL|SDA|SDA|1|0|1|1|0|1|1|0xB6
+SDA|SCL|SCL|1|0|1|1|1|0|0|0xB8
+SDA|SCL|SDA|1|0|1|1|1|0|1|0xBA
+SDA|SDA|SCL|1|0|1|1|1|1|0|0xBC
+SDA|SDA|SDA|1|0|1|1|1|1|1|0xBE
+SCL|GND|GND|1|1|0|0|0|0|0|0xC0
+SCL|GND|V+|1|1|0|0|0|0|1|0xC2
+SCL|V+|GND|1|1|0|0|0|1|0|0xC4
+SCL|V+|V+|1|1|0|0|0|1|1|0xC6
+SDA|GND|GND|1|1|0|0|1|0|0|0xC8
+SDA|GND|V+|1|1|0|0|1|0|1|0xCA
+SDA|V+|GND|1|1|0|0|1|1|0|0xCC
+SDA|V+|V+|1|1|0|0|1|1|1|0xCE
+SCL|GND|SCL|1|1|0|1|0|0|0|0xD0
+SCL|GND|SDA|1|1|0|1|0|0|1|0xD2
+SCL|V+|SCL|1|1|0|1|0|1|0|0xD4
+SCL|V+|SDA|1|1|0|1|0|1|1|0xD6
+SDA|GND|SCL|1|1|0|1|1|0|0|0xD8
+SDA|GND|SDA|1|1|0|1|1|0|1|0xDA
+SDA|V+|SCL|1|1|0|1|1|1|0|0xDC
+SDA|V+|SDA|1|1|0|1|1|1|1|0xDE
+
+
