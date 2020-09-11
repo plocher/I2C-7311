@@ -74,7 +74,7 @@ activity.
 
 #### Communication Protocol {#communication_protocol}
 
-``` {.cpp}
+```C++
 Simple I2C 16-bit Reads and Writes:
 uint16_t I2Cexpander::read7311() {
     uint16_t data = 0;
